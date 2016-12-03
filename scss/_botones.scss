@@ -1,0 +1,18 @@
+.btn {
+  @include border-radius(5px);
+  display: block;
+  background-color: darken( $fondo-boton, 15);
+  color:$texto-boton;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  font-size: 1rem;
+  transition: all .3s ease;
+  @include tablet {
+    display: inline-block;
+  }
+  &:hover {
+    background-color: darken($fondo-boton, 20);
+  }
+}

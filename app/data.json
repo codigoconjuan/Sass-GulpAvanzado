@@ -1,0 +1,39 @@
+{
+	"galeria": [
+    {"destino":"London Eye",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Torre de Londres",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Puente de la torre",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Abadía de Westminster",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Catedral de San Pablo De Londres",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Palacio de Buckingham",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Museo Británico",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Museo de Historia Natural",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Big Ben",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Palacio de Westminster",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"Hyde Park",
+     "imagen": "http://placehold.it/350x250"
+    },
+    {"destino":"The Globe",
+     "imagen": "http://placehold.it/350x250"
+    }
+]}

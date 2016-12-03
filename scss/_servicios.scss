@@ -1,0 +1,23 @@
+.servicios-lista {
+  list-style: none;
+  padding:0;
+  li {
+    text-align: center;
+    p {
+      color:$blanco;
+    }
+    h3 {
+      margin:0;
+    }
+    .btn-servicio {
+      @extend .btn;
+      background-color: $amarillo;
+      color: $azulOscuro;
+      font-weight: bold;
+
+      &:hover {
+        color:$blanco;
+      }
+     }
+  }
+}

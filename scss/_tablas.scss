@@ -1,0 +1,38 @@
+table {
+  margin-top: 30px;
+  width:100%;
+  text-align: left;
+  font-size: 1rem;
+  border-collapse: collapse;
+  > caption {
+    text-align: left;
+    font-family:$fuente-titulos;
+    font-size: 1.8rem;
+    padding:5px;
+    color:$amarillo;
+    margin-bottom: 20px;
+  }
+  thead tr th  {
+    background-color: darken($azul, 20);
+    color:$blanco;
+    font-size: 1.3rem;
+  }
+  > thead,
+  > tbody {
+    > tr {
+      color:$blanco;
+      background-color: darken($azul,10);
+      &:nth-child(odd) {
+        background-color: $azul;
+      }
+      &:hover {
+        background-color: darken($amarillo,5);
+      }
+      th,
+      td {
+        padding:10px;
+        border-bottom: 1px dotted $azulOscuro;
+      }
+    }
+  }
+}

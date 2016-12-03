@@ -1,0 +1,49 @@
+body {
+  background-color: $color-fondo;
+  margin:0;
+  padding:0;
+  font-size: 1.4rem;
+  color:$color-principal;
+  font-family: $fuente-principal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:$color-titulos;
+  font-family: $fuente-titulos;
+}
+
+.container {
+  margin: 0 auto;
+  @include clearfix;
+  @include tablet {
+    width:90%;
+  }
+  @include desktop {
+    width: 1000px;
+  }
+}
+
+.row {
+  @include clearfix;
+  @include tablet {
+    margin:0 -1em;
+  }
+}
+
+[class*='col-'] {
+  @include border-box;
+  float:left;
+  padding:1em;
+}
+
+@include tablet {
+  @for $i from 1 through $numero-columnas {
+    .col-#{$i} {
+      width:100% / $numero-columnas * $i;
+    }
+  }
+}
+
+div.caption {
+  min-height: 80px;
+}
